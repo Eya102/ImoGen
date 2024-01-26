@@ -4,6 +4,7 @@ This project showcases the usage of Text-to-Speech (TTS) for multiple languages 
 ## Setup
 **Install Dependencies**
 Ensure that you have the necessary dependencies installed by running: 
+
 `` !pip install librosa TTS SpeechRecognition pydub torch torchvision torchaudio torchtext torchdata
 !pip install SpeechRecognition
 !pip install pydub
