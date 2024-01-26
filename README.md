@@ -25,6 +25,20 @@ Three English sentences synthesized to audio.
 Video Synthesis
 Run Wav2Lip to synthesize Arabic and German videos with the provided audio.
 
+`` 
+!python merge_audio.py
+ ``
+
+## Merging Audio Files
+Merge three English audio sentences into a single audio file.
+
+
+## Final Video Synthesis
+Use Wav2Lip to synthesize the final video with the merged audio.
+``!python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face "/content/video-without-audio.mp4" --audio "/content/merged_audio_np.wav" ``
+
+
+
 
 
 
